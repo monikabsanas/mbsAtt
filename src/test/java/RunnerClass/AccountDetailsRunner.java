@@ -9,9 +9,9 @@ import io.cucumber.testng.CucumberOptions;
 		
 		glue = {"StepDefination"},
 		
-		publish = true
+		publish = true,
 		
-		//plugin = {"pretty"}
+		plugin = {"pretty"}
 		
 		)
 

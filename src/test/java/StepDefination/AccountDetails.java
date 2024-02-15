@@ -22,6 +22,16 @@ public class AccountDetails {
 		 
 		 List<String> firtsList= data.get(0);
 		 System.out.println(firtsList);
+		 
+		 String Fristtposition = firtsList.get(2);
+		 System.out.println(Fristtposition);
+		 
+		 System.out.println("New Way \n \n");
+		 
+		 String Value = data.get(1).get(3);
+		 System.out.println(Value);
+		 
+		 System.out.println("\nAnother new way");
 	}
 
 	@When("user click on submit button")
