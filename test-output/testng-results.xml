@@ -1,47 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-15T16:44:57 IST" name="Default suite" finished-at="2024-02-15T16:45:01 IST" duration-ms="3665">
+  <suite started-at="2024-02-16T00:38:28 IST" name="Default suite" finished-at="2024-02-16T00:38:33 IST" duration-ms="4430">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.AccountDetainsRunner@618b19ad]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.HooksSteps@618b19ad]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-02-15T16:44:57 IST" name="Default test" finished-at="2024-02-15T16:45:01 IST" duration-ms="3665">
-      <class name="RunnerClass.AccountDetainsRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerClass.AccountDetainsRunner@618b19ad]" started-at="2024-02-15T16:44:57 IST" name="setUpClass" finished-at="2024-02-15T16:44:58 IST" duration-ms="1175" status="PASS">
+    <test started-at="2024-02-16T00:38:28 IST" name="Default test" finished-at="2024-02-16T00:38:33 IST" duration-ms="4430">
+      <class name="RunnerClass.HooksSteps">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerClass.HooksSteps@618b19ad]" started-at="2024-02-16T00:38:28 IST" name="setUpClass" finished-at="2024-02-16T00:38:29 IST" duration-ms="1093" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@26ae880a]]>
+                <![CDATA[org.testng.TestRunner@30506c0d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.AccountDetainsRunner@618b19ad]" started-at="2024-02-15T16:44:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-15T16:44:59 IST" duration-ms="287" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.HooksSteps@618b19ad]" started-at="2024-02-16T00:38:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-16T00:38:30 IST" duration-ms="397" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Read Dat by column name"]]>
+                <![CDATA["Addition of Profile"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Datahandle"]]>
+                <![CDATA["Profile Functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerClass.AccountDetainsRunner@618b19ad]" started-at="2024-02-15T16:44:59 IST" name="tearDownClass" finished-at="2024-02-15T16:45:01 IST" duration-ms="2111" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.HooksSteps@618b19ad]" started-at="2024-02-16T00:38:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-16T00:38:30 IST" duration-ms="154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Updating the exixting profile"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Profile Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.HooksSteps@618b19ad]" started-at="2024-02-16T00:38:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-16T00:38:30 IST" duration-ms="98" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Deleting the profile"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Profile Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerClass.HooksSteps@618b19ad]" started-at="2024-02-16T00:38:30 IST" name="tearDownClass" finished-at="2024-02-16T00:38:33 IST" duration-ms="2573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- RunnerClass.AccountDetainsRunner -->
+      </class> <!-- RunnerClass.HooksSteps -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
