@@ -29,6 +29,11 @@ public class LoginStep {
 	    System.out.println("Udser enter o  button");
 	}
 	
+	@When("I click on symbol")
+	public void i_click_on_symbol() {
+	    System.out.println("I click on symbol");
+	}
+	
 	@Then("I should be able to login")
 	public void validateLogin() {
 		System.out.println("Valudation Login button");
