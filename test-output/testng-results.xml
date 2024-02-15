@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-14T01:39:57 IST" name="Default suite" finished-at="2024-02-14T01:40:01 IST" duration-ms="4033">
+  <suite started-at="2024-02-15T13:38:55 IST" name="Default suite" finished-at="2024-02-15T13:38:56 IST" duration-ms="943">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.AccountDetailsRunner@618b19ad]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.LoginRunner@618b19ad]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-02-14T01:39:57 IST" name="Default test" finished-at="2024-02-14T01:40:01 IST" duration-ms="4033">
-      <class name="RunnerClass.AccountDetailsRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerClass.AccountDetailsRunner@618b19ad]" started-at="2024-02-14T01:39:57 IST" name="setUpClass" finished-at="2024-02-14T01:39:58 IST" duration-ms="1240" status="PASS">
+    <test started-at="2024-02-15T13:38:55 IST" name="Default test" finished-at="2024-02-15T13:38:56 IST" duration-ms="943">
+      <class name="RunnerClass.LoginRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RunnerClass.LoginRunner@618b19ad]" started-at="2024-02-15T13:38:55 IST" name="setUpClass" finished-at="2024-02-15T13:38:55 IST" duration-ms="431" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@77a281fc]]>
+                <![CDATA[org.testng.TestRunner@2a448449]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.AccountDetailsRunner@618b19ad]" started-at="2024-02-14T01:39:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-14T01:39:58 IST" duration-ms="366" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RunnerClass.LoginRunner@618b19ad]" started-at="2024-02-15T13:38:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-02-15T13:38:56 IST" duration-ms="324" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Opening Bank Account With Nominee details"]]>
+                <![CDATA["Login to application"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Open Bank Account"]]>
+                <![CDATA["Login Functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerClass.AccountDetailsRunner@618b19ad]" started-at="2024-02-14T01:39:58 IST" name="tearDownClass" finished-at="2024-02-14T01:40:01 IST" duration-ms="2320" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RunnerClass.LoginRunner@618b19ad]" started-at="2024-02-15T13:38:56 IST" name="tearDownClass" finished-at="2024-02-15T13:38:56 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- RunnerClass.AccountDetailsRunner -->
+      </class> <!-- RunnerClass.LoginRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

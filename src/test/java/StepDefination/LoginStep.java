@@ -21,6 +21,12 @@ public class LoginStep {
 	@When("I click on login button")
 	public void enteringCredentials() {
 		System.out.println("ENTERING CREDENTIALS");
+		
+	}
+	
+	@When("I click on button")
+	public void i_click_on_button() {
+	    System.out.println("Udser enter o  button");
 	}
 	
 	@Then("I should be able to login")
