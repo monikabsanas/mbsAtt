@@ -22,7 +22,12 @@ public class Addition {
 
 	@Then("should display results")
 	public void should_display_results() {
-	    System.out.println("result");
+	    System.out.println("rwesult");
+	}
+	
+	@When("User Enter on Equal button")
+	public void user_enter_on_equal_button() {
+	    System.out.println("Equal button");
 	}
 	
 }
